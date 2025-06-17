@@ -1,0 +1,1 @@
+package com.example.myapplicationimport org.junit.Testclass MineSweeperTest {    @Test    fun startGame() {        val level = 9        val cellCreator = CellCreator()        cellCreator.level = level        mineSweeper.startGame(cellCreator)        val cells: List<Cell> = mineSweeper.cells        Assert.assertEquals(81, cells.count())    }}
