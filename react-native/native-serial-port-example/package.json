@@ -38,6 +38,14 @@
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5"
   },
+  "codegenConfig": {
+    "name": "NativeSerialPortSpec",
+    "type": "modules",
+    "jsSrcsDir": "specs",
+    "android": {
+      "javaPackageName": "com.serialport"
+    }
+  },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@types/react": "~19.0.10",
